@@ -23,10 +23,10 @@ Affiliation*: Consultant Senior Lecturer, CINEC Campus, Malabe, Sri Lanka
 Email: amadini.mj@gmail.com
 * Amadini Mendis Jayasinghe developed the model while serving as a Postdoctoral Research Associate at Los Alamos National Laboratory (LANL), CCS-2 Division, Los Alamos, NM, USA. 
 
-### Funding Source:
+## Funding Source:
 This research was supported by the Regional and Global Model Analysis (RGMA) component of the Earth and Environmental System Modeling (EESM) program of the U.S. Department of Energy's Office of Science, as a contribution to the HiLAT-RASM project. 
 
-### Study Location:
+## Study Location:
 Yukon River Basin, Alaska, USA
 
 #### Bounding Coordinates: <br>
