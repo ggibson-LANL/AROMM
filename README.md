@@ -61,7 +61,7 @@ Generates plots of DOC concentration versus river distance.
 Usage:
  Use this model when comparing new developments against the original implementation or when visual outputs are needed for DOC trends along the river.
 
-#### /Original_Yukon_River_Model_Code_for_No_of_Simulations
+#### /ukon_River_Model_Code_for_No_of_Simulations
 Purpose:
  Designed to perform Monte Carlo simulations with user-defined numbers of iterations.
 Key Features:
@@ -70,7 +70,7 @@ The number of simulations must be manually adjusted before each run.
 Usage:
  Use this model when performing sensitivity analyses or uncertainty assessments requiring different simulation counts.
 
-#### /Original_Yukon_River_Model_Code_Experiment_I
+#### /Yukon_River_Model_Code_Experiment_I
 This model code creates outputs for a  fixed number of Monte Carlo simulations and initial values that are related to Experiment I
 Purpose:
  Implements Experiment I, using a fixed number of Monte Carlo simulations and a specific set of initial conditions.
@@ -80,7 +80,7 @@ Inputs and settings are predefined and consistent.
 Usage:
  Use this model to generate results specific to Experiment I or when reproducing previously reported findings from that experiment.
 
-#### /Original_Yukon_River_Model_Code_Experiment_II
+#### /Yukon_River_Model_Code_Experiment_II
 This model code creates outputs for a  fixed number of Monte Carlo simulations and initial values that are related to Experiment II
 Purpose:
  Implements Experiment II, similar in structure to Experiment I but using a different set of initial conditions.
