@@ -1,6 +1,18 @@
 # AROMM
 OPEN SOURCE ASSERTION: The ‘Yukon River Chemistry Model’ was approved for Open-Source Assertion on 4/9/2025 and assigned #O4870 
 
+## Model Overview:
+This project focused on modeling and analyzing the transport and transformation of Dissolved Organic Carbon (DOC) and its macromolecular composition in Arctic rivers, with a particular emphasis on the Yukon River. A central goal was to develop a process-based river model capable of simulating the reactivity and fate of dissolved organic components under conditions characteristic of Arctic river systems. The specific objectives were to: (1) model the chemical reactivity of DOC components; (2) parameterize the model to reflect the physical and biogeochemical characteristics of the Yukon River; (3) estimate DOC and it’s macromolecular component concentrations at the river mouth; and (4) evaluate spatial and temporal changes in chemical concentrations along the river continuum.
+
+The AROMM model developed under this project simulates the evolution of dissolved organic chemicals along the river, from the headwater to the river mouth. 
+
+Model code is written in Python and runs on Mac OS. The model should be compatible with any operating system. Python ≥ 3.9 is required, along with the following Python packages:
+Numpy - Numerical operations
+Pandas - Data handling and input/output
+Satplotlib - Plotting and visualization
+Scipy - Statistical distributions and optimization
+pyDOE -Design of experiments (Latin Hypercube Sampling, content, and the structure of the model)
+
 ## Points of Contact: 
 Repository manager: Dr. Georgina Anne Gibson  
 Affiliation: Scientist, CCS-2 Division, Los Alamos National Laboratory (LANL)  
@@ -13,36 +25,21 @@ Email: amadini.mj@gmail.com
 
 Funding Source: This research was supported by the Regional and Global Model Analysis (RGMA) component of the Earth and Environmental System Modeling (EESM) program of the U.S. Department of Energy's Office of Science, as a contribution to the HiLAT-RASM project. 
 
-## Abstract:
-Riverine dissolved organic carbon (DOC) is a critical biogeochemical component that transmits information from Arctic soils to the Arctic Ocean, significantly influencing carbon dynamics in this unique ecosystem. As DOC travels downstream, it undergoes transformations that alter its composition and fate. The Yukon River serves as an effective testbed for modeling these dynamics, offering sufficient scale to capture key biogeochemical processes, simpler hydrology than other major Arctic rivers, and access to long-term DOC data for model validation. To investigate DOC transformations during transit, we adapted our Arctic Riverine Organic Macromolecular Model by applying regional-specific parameterizations. Our model simulates the transport and transformation of 15 organic macromolecules, including CDOM (Coloured Dissolved Organic Matter), proteins, polysaccharides, lipids, lignin phenols, and humic substances. Initial DOC concentrations were derived from surrounding observed soil organic carbon stocks, while chemical transformations and hydrological dynamics were modeled along the river’s course. Sensitivity and uncertainty analyses were conducted using a Monte Carlo approach under two experimental setups. Results revealed that variability in DOC and CDOM concentrations at the river mouth were predominantly driven by initial DOC concentration (~70% of variability explained) and dilution at confluence points (~10%). The refractory fraction of DOC explained 21-88% of the variability in 14 macromolecular concentrations. River velocity, which determines residence time, explained 8-47% of the variability in protein, polysaccharide, lipid, pigments, and lignin phenols at the river mouth. In contrast, chemical turnover times contributed only 1–5% to output variability. Our findings underscore the need for improved land-specific headwater observations, including seasonal soil moisture and lateral transport dynamics that control the initial tributary-specific DOC inputs. With accelerated permafrost thaw and increasing river discharge, extending our model to other Arctic River systems and seasons will enhance understanding of Arctic riverine carbon fluxes and their contributions to the Arctic Ocean.         
+###Study Location: Yukon River Basin, Alaska, USA
 
-### Keywords: Yukon River, Alaska, Arctic Rivers, Subarctic Regions, Yukon Watersheds
-Study Location: Yukon River Basin, Alaska, USA
+#### Bounding Coordinates:
+-Northernmost Latitude: 68.0°N
+-Southernmost Latitude: 60.0°N
+-Westernmost Longitude: -165.0°W
+-Easternmost Longitude: -130.0°W
 
-## Bounding Coordinates:
-Northernmost Latitude: 68.0°N
-Southernmost Latitude: 60.0°N
-Westernmost Longitude: -165.0°W
-Easternmost Longitude: -130.0°W
-Geographic Coverage Description: 
-
-Although no new field samples were collected directly by the authors for this work, all data used in this file pertain to the Yukon River Basin in Alaska, USA. The data were compiled from previously published literature and publicly available experimental portals, including observational and biogeochemical datasets relevant to this region. Although the data originated from various sources, they all describe environmental or geochemical conditions within the specified region.
+Geographic Coverage Description: Although no new field samples were collected directly by the authors for this work, all data used in this file pertain to the Yukon River Basin in Alaska, USA. The data were compiled from previously published literature and publicly available experimental portals, including observational and biogeochemical datasets relevant to this region. Although the data originated from various sources, they all describe environmental or geochemical conditions within the specified region.
 
 ## Github link:
 https://github.com/ggibson-LANL/AROMM
 Project Summary:
 
-## Model Overview:
-This project focused on modeling and analyzing the transport and transformation of Dissolved Organic Carbon (DOC) and its macromolecular composition in Arctic rivers, with a particular emphasis on the Yukon River. A central goal was to develop a process-based river model capable of simulating the reactivity and fate of dissolved organic components under conditions characteristic of Arctic river systems. The specific objectives were to: (1) model the chemical reactivity of DOC components; (2) parameterize the model to reflect the physical and biogeochemical characteristics of the Yukon River; (3) estimate DOC and it’s macromolecular component concentrations at the river mouth; and (4) evaluate spatial and temporal changes in chemical concentrations along the river continuum.
 
-The AROMM model developed under this project simulates the evolution of dissolved organic chemicals along the river, from the headwater to the river mouth. 
-
-Model code is written in Python and runs on Mac OS. The model should be compatible with any operating system. Python ≥ 3.9 is required, along with the following Python packages:
-Numpy - Numerical operations
-Pandas - Data handling and input/output
-Satplotlib - Plotting and visualization
-Scipy - Statistical distributions and optimization
-pyDOE -Design of experiments (Latin Hypercube Sampling, content, and the structure of the model)
 
 ## Folder Organization
 The model code is located in:
