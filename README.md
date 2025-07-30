@@ -23,15 +23,17 @@ Affiliation*: Consultant Senior Lecturer, CINEC Campus, Malabe, Sri Lanka
 Email: amadini.mj@gmail.com
 * Amadini Mendis Jayasinghe developed the model while serving as a Postdoctoral Research Associate at Los Alamos National Laboratory (LANL), CCS-2 Division, Los Alamos, NM, USA. 
 
-Funding Source: This research was supported by the Regional and Global Model Analysis (RGMA) component of the Earth and Environmental System Modeling (EESM) program of the U.S. Department of Energy's Office of Science, as a contribution to the HiLAT-RASM project. 
+### Funding Source:
+This research was supported by the Regional and Global Model Analysis (RGMA) component of the Earth and Environmental System Modeling (EESM) program of the U.S. Department of Energy's Office of Science, as a contribution to the HiLAT-RASM project. 
 
-###Study Location: Yukon River Basin, Alaska, USA
+### Study Location:
+Yukon River Basin, Alaska, USA
 
-#### Bounding Coordinates:
--Northernmost Latitude: 68.0°N
--Southernmost Latitude: 60.0°N
--Westernmost Longitude: -165.0°W
--Easternmost Longitude: -130.0°W
+#### Bounding Coordinates: <br>
+-Northernmost Latitude: 68.0°N <br>
+-Southernmost Latitude: 60.0°N<br>
+-Westernmost Longitude: -165.0°W<br>
+-Easternmost Longitude: -130.0°W<br>
 
 Geographic Coverage Description: Although no new field samples were collected directly by the authors for this work, all data used in this file pertain to the Yukon River Basin in Alaska, USA. The data were compiled from previously published literature and publicly available experimental portals, including observational and biogeochemical datasets relevant to this region. Although the data originated from various sources, they all describe environmental or geochemical conditions within the specified region.
 
