@@ -196,4 +196,39 @@ The chemical fractions of DOC components in river_initial_monac_code.py are defi
 
 ### Chemical turnover time: 
 The chemical turnover of macromolecular components in river_initial_monac_code.py are defined using information from the literature and expert judgment. These fractions establish the initial macromolecular composition of DOC at the headwaters.
+​
+
+| **Parameter** | **Where It's Set** | **Description** |
+| --- | --- | --- |
+| **Number of tributaries** | river_initial_monac_code.py | Defines how many major tributaries flow into the Yukon main stem (e.g., Pelly, Tanana, Koyukuk). |
+| **Main stem and tributary length** | river_initial_monac_code.py | Total length of the main river and each tributary; includes distances to confluence points. |
+| **Confluence point locations** | river_initial_monac_code.py | Distance along main stem where each tributary joins (used for dilution and mixing simulations). |
+| **Flow velocity** | river_initial_monac_code.py | Average flow velocity for main river and tributaries. |
+| **Dilution factors** | river_initial_monac_code.py | Confluence dilution factors based on river discharge from main stem and tributaries. |
+| **Initial DOC concentration** | river_initial_monac_code.py | Based on average soil organic carbon at each headwater, converted to DOC using empirical relationships. |
+| **Chemical fractions of DOC** | river_initial_monac_code.py | Defines macromolecular composition of DOC (e.g., proteins, polysaccharides, humics). |
+| **Chemical turnover times** | river_initial_monac_code.py | Residence/decay time for each DOC component. |
+| **Initial macromolecular production** | river_initial_monac_code.py | Set baseline production rates for each DOC macromolecule type. |
+| **Monte Carlo setup** | river_initial_monac_code.py | Sets number of simulation runs and generates random parameters within defined ranges. |
+| **Boundary condition ranges** | river_initial_monac_code.py | Parameter limits for random sampling in Monte Carlo runs. |
+
+
+<br>
+
+**Model Input Data and it’s location**
+**​​**
+
+| Parameter | Definition Source | Data Source |
+| --- | --- | --- |
+| **Number of tributaries** | Hardcoded in script | River maps, literature |
+| **Main stem and tributary length** | Defined numerically from shapefile | Natural Earth, published river datasets |
+| **Confluence point locations** | GIS-derived, inserted manually | Literature and maps |
+| **Flow velocity** | Manually inserted from literature/station data | USGS, literature |
+| **Dilution factors** | Derived from observed discharge and inserted manually | River discharge data |
+| **Initial DOC concentration** | Converted from soil organic carbon values and inserted manually | Soil Organic Carbon Data, Polygon Shape files of tributary watersheds, Soil moisture data, Soil temperature data |
+| **Chemical fractions of DOC** | Expert judgement/literature-derived proportions | Literature and expert judgment, past model estimates |
+| **Chemical turnover times** | Calibrated from literature values | Literature and expert judgment, past model estimates |
+| **Initial macromolecular production** | Model assumption | Expert judgement and model assumptions |
+| **Monte Carlo setup** | Number of runs decided via sensitivity test | Model Sensitivity test |
+| **Boundary condition ranges** | Defined from Arctic ranges and adjusted via sensitivity | Based on expert range and literature |
 ​​
