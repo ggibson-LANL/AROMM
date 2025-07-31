@@ -11,10 +11,9 @@ affect the downstream evolution of dissolved organic carbon (DOC). These simulat
 
 *** Model Extension:
 River_3000km_Slow_Low_Sediments(Coastal_Region)
- This version builds upon the two-node structure by incorporating:
--A new sediment-associated chemical reactivity term, and
-
-
+ This version builds upon the two-node structure by incorporating:<br>
+ 
+-A new sediment-associated chemical reactivity term, and <br>
 -The macromolecular behavior of DOC, particularly relevant in coastal environments.
 
 
