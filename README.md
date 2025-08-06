@@ -93,10 +93,10 @@ The Yukon River model code was developed from the Idealized_Arctic_River_Model, 
 #### 1.1.1 Idealized_Yukon_Multi_Node_Model
 This directory contains the model code for a multi-node, idealized river chemistry model, which represents the Yukon River as a series of interconnected spatial compartments.
 
-####1.1.2 One_Node_Model
+#### 1.1.2 One_Node_Model
 This folder includes the single-node version of the idealized river model.
 
-####1.1.3 Two_Node_Model
+#### 1.1.3 Two_Node_Model
 Contains the two-node version of the idealized river chemistry model.
 
 ### How to run the model
