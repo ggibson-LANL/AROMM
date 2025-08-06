@@ -39,9 +39,6 @@ Geographic Coverage Description: Although no new field samples were collected di
 
 ## Github link:
 https://github.com/ggibson-LANL/AROMM
-Project Summary:
-
-
 
 ## Folder Organization
 The model code is located in:
